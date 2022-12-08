@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link the five icone-->
+    <link rel="icon" href="img/favicon-32x32.png">
+    <title>Google timer and stopwatch </title>
+    <!-- link css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+    <ul>
+        <div class="left-box">
+    <li><a href="https://www.google.com/gmail/about/">Gmail</a></li>
+    <li><a href="">Images</a></li>
+        </div>
+
+<li title="Google Apps" class="svg">
+    <svg width="24px" height="24px" style="border-radius: 50%;" class="gb_Ve" focusable="false"
+        viewBox="0 0 24 24">
+
+        <path fill="rgba(255,255,255,0.87)"
+            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+        </path>
+    </svg>
+</li>
+    </ul>
+</nav>
+</header>
+
+<!-- timer html  -->
+<main>
+
+<div class="container">
+
+
+            <div class="selection">
+                <h1 class="active" id="timer">
+                    Timer
+                </h1>
+                <h1 id="stopwatch">StopWatch</h1>
+            </div>
+
+            <div class="body">
+                <div class="counter">
+                    <div class="hours"><span id="hours">0</span> h</div>
+                    <div class="minutes"><span id="minutes">00</span> m</div>
+                    <div class="seconds"><span id="seconds">0</span> s</div>
+                </div>
+                <h2 id="finish">finished</h2>
+            </div>
+
+            <div class="buttons">
+                <div class="left">
+                    <button class="start" id="start">start</button>
+                    <button id="reset" class="reset">reset</button>
+                    <button style="position:relative; top: 0px;px;center:10px; margin-left: auto; margin-right: auto;" id="setTime">put a time</button>
+                </div>
+                <div class="right"></div>
+            </div>
+        </div>
+    </main>
+    <!-- end of the timer  -->
+
+    <!-- link java script file  -->
+    <script src="index.js"></script>
+</body>
+</html>
